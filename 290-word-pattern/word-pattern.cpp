@@ -1,8 +1,8 @@
 class Solution {
 public:
     bool wordPattern(string pattern, string s) {
-        map<int,std::string> PatternTab;
-        map<std::string,int> STab;
+        unordered_map<int,std::string> PatternTab;
+        unordered_map<std::string,int> STab;
 
         istringstream iss(s);
         string str;
