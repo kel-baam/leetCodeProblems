@@ -9,10 +9,7 @@ public:
             {
                 
                 if(arr[i]== 2*arr[j] || arr[j] == 2*arr[i])
-                {
-                    std::cout << arr[i] << arr[j]<< "\n";
                     return true;
-                }
             }
         }
         return false;
