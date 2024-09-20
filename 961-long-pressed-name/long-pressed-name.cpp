@@ -9,7 +9,6 @@ public:
             return true;
         for(size_t j = 0 ; j < typed.length();j++)
         {
-            std::cout <<name[i] <<typed[j] <<  j<<  "\n";
             if(name[i] != typed[j] && j != 0 && typed[j]== typed[j-1])
                 result = true;
             else if (name[i] != typed[j])
